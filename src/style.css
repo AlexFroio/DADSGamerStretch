@@ -1,6 +1,4 @@
 body {
-    // background: rgb(12,34,62);
-     //background: linear-gradient(90deg, rgba(12,34,62,1) 0%, rgba(227,182,207,1) 48%, rgba(12,34,62,1) 100%);
      text-align: center;
  }
  h1 {
@@ -13,21 +11,21 @@ body {
      font-size: 15px;
      font-family: 'Noto Sans KR', sans-serif;
    }
- 
+
    .taglistdiv {
    width: 600px;
    border: 2px solid navy;
    padding: 20px;
-   margin: 40px;
+   margin: auto;
  }
- 
+
  h2 {
      font-family: 'Anton', sans-serif;
      color: navy;
      font-size: 30px;
      text-align: left;
  }
- 
+
  .button {
    border: none;
    color: white;
@@ -40,15 +38,15 @@ body {
    background-color: navy;
     font-family: 'Noto Sans KR', sans-serif;
  }
- 
+
  .stretchlistdiv {
  width: 600px;
  border: none;
  padding: 20px;
- margin: 40px;
- 
+ margin: auto;
+
  }
- 
+
  .stretch {
  width: 500px;
  border: none;
@@ -61,28 +59,26 @@ body {
  background-color: navy;
  font-family: 'Noto Sans KR', sans-serif;
  }
- 
+
  .collapsible {
    background-color: navy;
    cursor: pointer;
    padding: 18px;
    width: 90%;
-   height: 100px;
    border: none;
    text-align: left;
    outline: none;
    font-size: 15px;
    font-family: 'Noto Sans KR', sans-serif;
    color: white;
-   
+
  }
- 
+
  .active, .collapsible:hover {
    background-color: #B3ECFF;
  }
  .content {
-   padding: 18px;
-   display: block;
+   padding: 0 18px;
    overflow: hidden;
    background-color: #f1f1f1;
    width: 90%;
