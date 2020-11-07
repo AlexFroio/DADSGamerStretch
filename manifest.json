@@ -1,0 +1,11 @@
+{
+    "name":"Gamer Stretch Dad Companion",
+    "short_name": "DADStretch",
+    "start_url": ".",
+    "background_color": "#e3b6cf",
+    "theme_color": "#0c223e",
+    "display": "standalone",
+    "icons": {
+
+    }
+}

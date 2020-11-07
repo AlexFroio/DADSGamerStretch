@@ -1,0 +1,14 @@
+body {
+    background: rgb(12,34,62);
+    background: linear-gradient(90deg, rgba(12,34,62,1) 0%, rgba(227,182,207,1) 48%, rgba(12,34,62,1) 100%);
+    text-align: center;
+}
+h1 {
+    font-family: 'Squada One', cursive;
+    color:white;
+}
+p {
+    color:white;
+    font-size: 50px;
+    font-family: 'Press Start 2P', cursive;
+  }
