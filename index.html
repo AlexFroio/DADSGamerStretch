@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme_color" content="#0c223e">
     <title>DADS Stretch</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/style.css">
     <link rel="manifest" href="manifest.json">
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Noto+Sans+KR&display=swap" rel="stylesheet">
 
@@ -16,47 +16,48 @@
 
 <div class="taglistdiv">
   <h2>Filter Stretches</h2>
-<!--Add filter functionality--> 
-<button class="button">Back</button>
-<button class="button">Wrists</button>
-<button class="button">Fingers</button>
-<button class="button">Traps</button>
-<button class="button">Neck</button>
-<button class="button">Upper Arms</button>
-<button class="button">Can do sitting</button>
+<!--Add filter functionality-->
+<button class="button" name="back">Back</button>
+<button class="button" name="wrists">Wrists</button>
+<button class="button" name="fingers">Fingers</button>
+<button class="button" name="traps">Traps</button>
+<button class="button" name="neck">Neck</button>
+<button class="button" name="upperArms">Upper Arms</button>
+<button class="button" name="sit">Can do sitting</button>
+<button class="rstButton">Reset</button>
   </div>
 
-<div class="stretchlistdiv">
+<div class="stretchlistdiv back sit">
   <button type="button" class="collapsible">Fix Posture</button>
     <div class="content">
       <p>1. Puff your chest out, and tuck in your chin <br>
-        2. Suck your belly in and hold for five seconds, then release. Perform for 15 reps. 
+        2. Suck your belly in and hold for five seconds, then release. Perform for 15 reps.
 This will help strengthen your abdominal muscles, which are a contributing factor to good posture!
 </p>
     </div>
        </div>
 
-<div class="stretchlistdiv">
+<div class="stretchlistdiv sit stand wrists">
   <button type="button" class="collapsible">Praying for a New Grill</button>
     <div class="content">
       <p>1. While standing or sitting up straight, place your palms together as if you are praying. Make sure your hands are in front of your face and your arms are completely touching. <br>
       2. with your palms pressed together, slowly lower your hands while also spreading your elbows apart. Stop once you feel the stretch. <br>
       3. Hold the stretch for 20 seconds and repeat.</p>
      </div>
-  </div> 
+  </div>
 
-<div class="stretchlistdiv">
+<div class="stretchlistdiv back">
   <button type="button" class="collapsible">Supported Backbend</button>
     <div class="content">
-      <p>1. Stand facing away from a wall, with your heels between 1 and 3 inches away from the wall's base. <br> 
-      2. Raise your arms up and bend your elbows back as you press your palms against the wall. <br> 
+      <p>1. Stand facing away from a wall, with your heels between 1 and 3 inches away from the wall's base. <br>
+      2. Raise your arms up and bend your elbows back as you press your palms against the wall. <br>
       3. Slowly lean back. Walk your hands down the wall until you feel a stretch. <br>
       <i>Note: you may need to step away from the wall until you feel the stretch.</i> <br><br>
       <b>Be sure to start slowly! As your back gets stronger, you'll be able to do more of a backbend. Be careful not to overstretch!</b></p>
       </div>
-  </div> 
+  </div>
 
-<div class="stretchlistdiv">
+<div class="stretchlistdiv wrists fingers hands sit">
   <button type="button" class="collapsible">Wrist and Finger Extensor/Flexor Stretch</button>
     <div class="content">
       <p>1. Hold your arm out straight in front of you and make a fist. Tilt your wrist down using your other hand and hold for 10 seconds. This helps to lengthen and stretch the extensors. <br>
@@ -66,96 +67,87 @@ This will help strengthen your abdominal muscles, which are a contributing facto
       The flexors are located in the anterior compartment of the forearm, which are responsible for bending the wrist and fingers, as well as gripping (which is what we do to click the mouse button or hold the trigger button on a controller. </b>
       </p>
       </div>
-  </div> 
+  </div>
 
-<div class="stretchlistdiv">
+<div class="stretchlistdiv back upperArms">
   <button type="button" class="collapsible">Doorway Stretch</button>
     <div class="content">
-      <p>1. Position your elbows and hands in line with a doorframe. <br> 
+      <p>1. Position your elbows and hands in line with a doorframe. <br>
       2. Step through the door slowly until you feel a stretch. <br>
       3. Hold this position for 20 seconds before returning to the starting position. <i>Note: Avoid arching your back as you do this!</i>
 </p>
       </div>
-  </div> 
+  </div>
 
-<div class="stretchlistdiv">
+<div class="stretchlistdiv back traps sit">
   <button type="button" class="collapsible">Shoulder Blade Squeeze</button>
     <div class="content">
       <p>1. While sitting down, ensure feet are planted on the ground. Position your feet and knees shoulder-width apart. <br>
-      2. Maintain a chin tuck and raise your chest up.<br> 
-      3. Rest both of your arms down by your sides. <br> 
+      2. Maintain a chin tuck and raise your chest up.<br>
+      3. Rest both of your arms down by your sides. <br>
       4. Now, bring your arms back and externally rotate them so that your palms face outward. Hold this position for 5-10 seconds and release.
 </p>
       </div>
-  </div> 
+  </div>
 
-<div class="stretchlistdiv">
+<div class="stretchlistdiv neck sit">
   <button type="button" class="collapsible">Neck Lateral Flexion</button>
     <div class="content">
       <p>1. Sit up straight. Then, shrug your shoulders to your ears and pull them down away from your ears until you feel a stretch. Hold this position.<br>
-      2. Keeping your shoulders stretched downward, reach over to the opposite site of your head with your right hand. Try not to tilt your head forwards or backwards and keep your shoulders stretched down. <br> 
-      3. Gently used your hand to tilt your head to the side (towards the arm placed above your head. <br> 
-      4. Repeat on the other side. 
+      2. Keeping your shoulders stretched downward, reach over to the opposite site of your head with your right hand. Try not to tilt your head forwards or backwards and keep your shoulders stretched down. <br>
+      3. Gently used your hand to tilt your head to the side (towards the arm placed above your head. <br>
+      4. Repeat on the other side.
 </p>
       </div>
-  </div> 
+  </div>
 
-<div class="stretchlistdiv">
+<div class="stretchlistdiv hands wrists fingers sit">
   <button type="button" class="collapsible">Wrist Joint Circles</button>
     <div class="content">
-      <p> 1. Extend both hands in front of you and rotate your wrists in a circle. Perform 10 to 15 clockwise circles, then rotate counterclockwise. 
+      <p> 1. Extend both hands in front of you and rotate your wrists in a circle. Perform 10 to 15 clockwise circles, then rotate counterclockwise.
 </p>
       </div>
-  </div> 
+  </div>
 
-<div class="stretchlistdiv">
+<div class="stretchlistdiv hands fingers sit">
   <button type="button" class="collapsible">Thumb Extensor Stretch</button>
     <div class="content">
       <p>  1. Take your right thumb into the palm of your hand and close your fingers over it. <br>
       2. Slowly bend your wrist toward your pinky finger (ie. the outside of your hand). You should feel a stretch in your thumb and alongside the forearm area. Hold for 30 seconds. <br>
-      3. Repeat with the other hand. 
+      3. Repeat with the other hand.
 </p>
       </div>
-  </div> 
+  </div>
 
-<div class="stretchlistdiv">
+<div class="stretchlistdiv back sit">
   <button type="button" class="collapsible">Hugs for everyone!</button>
     <div class="content">
-      <p>1. Stretch your arms as though you are about to hug your favourite giant Blue plushie. Lace your fingers together and turn your palms so that they face forward. Hold this position for 10 seconds. <br> 
-      2. Keeping your fingers interlocked, reach over your head. Lean to one side, still reaching up. Hold for 10 seconds. Repeat on the other side. <br> 
+      <p>1. Stretch your arms as though you are about to hug your favourite giant Blue plushie. Lace your fingers together and turn your palms so that they face forward. Hold this position for 10 seconds. <br>
+      2. Keeping your fingers interlocked, reach over your head. Lean to one side, still reaching up. Hold for 10 seconds. Repeat on the other side. <br>
       3. Return to the position in Step 1 and hold for 10 seconds.
 </p>
       </div>
-  </div> 
+  </div>
 
-<div class="stretchlistdiv">
-  <button type="button" class="collapsible">Hugs for everyone!</button>
-    <div class="content">
-      <p>1. Stretch your arms as though you are about to hug your favourite giant Blue plushie. Lace your fingers together and turn your palms so that they face forward. Hold this position for 10 seconds. <br> 
-      2. Keeping your fingers interlocked, reach over your head. Lean to one side, still reaching up. Hold for 10 seconds. Repeat on the other side. <br> 
-      3. Return to the position in Step 1 and hold for 10 seconds.
-</p>
-      </div>
-  </div> 
-
-<div class="stretchlistdiv">
+<div class="stretchlistdiv neck shoulder sit">
   <button type="button" class="collapsible">Shoulder/Neck Stretches</button>
     <div class="content">
-      <p>1. Shrug your shoulders up and hold. Push them down (do NOT drop them). Hold each position for 10 seconds and repeat 3 times. <br> 
-      2. Tuck in your chin and slowly roll your head towards your chest. Hold for 10 seconds. <br> 
+      <p>1. Shrug your shoulders up and hold. Push them down (do NOT drop them). Hold each position for 10 seconds and repeat 3 times. <br>
+      2. Tuck in your chin and slowly roll your head towards your chest. Hold for 10 seconds. <br>
       3. Roll your head in circles 5 times clockwise and 5 times counterclockwise. Hold a stretch for 10 seconds whenever you feel tightness.
 </p>
       </div>
-  </div> 
+  </div>
 
-<div class="stretchlistdiv">
+<div class="stretchlistdiv traps neck sit">
   <button type="button" class="collapsible">Simple Trapezius Muscle Stretch</button>
     <div class="content">
-      <p>1. Place both hands behind your head. Drop your chin down towards your chest and exaggerate the stretch by pushing gently with your hands. Hold for 30 seconds and repeat 4 times. <br> 
-      2. Gently turn your head left until you feel a stretch, then move the head down. With your left hand, reach over your head and pull the head towards your left arm. Hold for 10 seconds and repeat on the opposite side. <br> 
+      <p>1. Place both hands behind your head. Drop your chin down towards your chest and exaggerate the stretch by pushing gently with your hands. Hold for 30 seconds and repeat 4 times. <br>
+      2. Gently turn your head left until you feel a stretch, then move the head down. With your left hand, reach over your head and pull the head towards your left arm. Hold for 10 seconds and repeat on the opposite side. <br>
 </p>
       </div>
-  </div> 
+  </div>
         <script src="script.js"></script>
+        <script src="src/index.js"></script>
   </body>
 </html>
