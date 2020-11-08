@@ -20,10 +20,15 @@ res[0].addEventListener("click", function () {
   for (j = 0; j < filtMat.length; j++) {
     filtMat[j].style.display = 'block';
   }
+  for (k = 0; k < filt.length; k++) {
+    filt[k].style.backgroundColor = "#0C223E";
+  }
 });
 
 for (i = 0; i < filt.length; i++){
   filt[i].addEventListener("click", function() {
+    this.style.backgroundColor = "#AD9742";
+
     for (j=0; j < filtMat.length; j++){
       if (filtMat[j].classList.contains(this.name)){
       }

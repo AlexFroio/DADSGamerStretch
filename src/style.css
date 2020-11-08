@@ -3,7 +3,7 @@ body {
  }
  h1 {
      font-family: 'Anton', sans-serif;
-     color: navy;
+     color: #0C223E;
      font-size: 60px;
  }
  p {
@@ -14,14 +14,14 @@ body {
 
 .taglistdiv {
    width: 600px;
-   border: 2px solid navy;
+   border: 2px solid #0C223E;
    padding: 20px;
    margin: auto;
  }
 
  h2 {
      font-family: 'Anton', sans-serif;
-     color: navy;
+     color: #0C223E;
      font-size: 30px;
      text-align: left;
  }
@@ -35,7 +35,7 @@ body {
    font-size: 14px;
    margin: 4px 2px;
    cursor: pointer;
-   background-color: navy;
+   background-color:#0C223E;
     font-family: 'Noto Sans KR', sans-serif;
  }
  .rstButton {
@@ -47,7 +47,7 @@ body {
   font-size: 14px;
   margin: 4px 2px;
   cursor: pointer;
-  background-color: gray;
+  background-color: lightgray;
    font-family: 'Noto Sans KR', sans-serif;
 }
 
@@ -68,12 +68,12 @@ body {
  display: inline-block;
  font-size: 14px;
  cursor: pointer;
- background-color: navy;
+ background-color: #0C223E;
  font-family: 'Noto Sans KR', sans-serif;
  }
 
  .collapsible {
-   background-color: navy;
+   background-color: #0C223E;
    cursor: pointer;
    padding: 18px;
    width: 100%;
@@ -87,8 +87,10 @@ body {
  }
 
  .active, .collapsible:hover {
-   background-color: #B3ECFF;
+   background-color: #7ad0ec;
+   transition: background 2s;
  }
+
  .content {
    padding: 0 18px;
    overflow: hidden;
